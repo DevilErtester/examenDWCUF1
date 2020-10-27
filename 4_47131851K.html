@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="Web learning">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript,AJAX">
+    <meta charset="UTF-8">
+    <title>SERIE DE NÚMEROS</title>
+  </head> 
+  <body>
+		<h1>SERIE DE NÚMEROS</h1>
+		<h2>2.5 punts</h2>
+		<h2>No es pot editar el codi HTML de dins l'etiqueta body</h2>
+		<h2>Recorda: el nom d'aquest arxiu ha de ser 4_EL_TEU_NIF.html i el que generis amb codi script: 4_EL_TEU_NIF.js</h2>	
+        <p>
+        Quan es premi el botó INICIAR ha d'aparèixer el 1r número de la sèrie numèrica que tot seguit s'explicarà, passat 1 segon ha d'apareixer el 2n número, passat un altre segon ha d'apareixer el 3r terme i així successivament fins que l'usuari premi el botó ATURAR. <br>
+		Els números ha d'aparèixer dins l'etiqueta amb id <i>sortida</i>. 
+        </p>
+		<p>
+		Els números es mostraran un a costat de l'altre (separats per un espai) i correspondran als valors de la serie geométrica següent:<br><br>
+
+		a<sub>n</sub> = (2/3)<sup>n-1</sup><br><br>
+
+		On n és el terme de la seria<br><br>
+		
+		1/1, 2/3 , 4/9 , 8/27 , ... (AMB FRACCIÓ)<br><br>
+		1.000000, 0.666666 , 0.444444 , 0.296296, ... (AMB NÚMERO REAL, AMB 6 DECIMALS)<br><br>
+		Cal mostrar-los d'alguna d'aquestes dues maneres
+		</p>
+		<p>Quan es premi el botó ATURAR a la sortida cal afegir un salt de linia i una frase indicant quants termes s'han mostrar. Per exemple, pels casos anteriors:
+		<br><br>
+		S'han mostrat 4 termes
+		</p>
+		<p>OBSERVACIÓ: Cal controlar adequadament les situacions:
+		<ol>
+			<li>L'usuari prem INICIAR, però ja l'havia premut i s'estan mostrar termes cada segon.</li>
+			<li>L'usuari prem ATURAR sense haver premut INICIAR amb anterioritat.</li>
+			<li>L'usuari prem ATURAR més d'un cop seguit (similar a l'anterior situació).</li>
+		</ol>
+		</p>
+		<input type='button' value='INICIAR' id='INICIAR'>
+		<input type='button' value='ATURAR' id='ATURAR'>
+		<p id='sortida'></p>
+  </body>
+</html>
+
+ 
